@@ -20,7 +20,7 @@ layout: compress
     <!-- Global CSS -->
     <link rel="stylesheet" type="text/css" href="{{ '/assets/plugins/bootstrap/css/bootstrap.min.css'      | prepend: site.baseurl }}">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/plugins/font-awesome/css/font-awesome.css'    | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/plugins/font-awesome/css/all.css'             | prepend: site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/plugins/lightbox/dist/ekko-lightbox.min.css'  | prepend: site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/plugins/elegant_font/css/style.css'           | prepend: site.baseurl }}">
 
@@ -76,7 +76,7 @@ layout: compress
                         {{ page.title }}
                     </h1>
 
-                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: {{ site.posts.first.date | date: '%B %d, %Y' }}</div>
+                    <div class="meta"><i class="fas fa-clock-o"></i> Last updated: {{ site.posts.first.date | date: '%B %d, %Y' }}</div>
 
                 </div>
 
@@ -94,7 +94,7 @@ layout: compress
                             <section id="{{ post.title | slugify }}" class="doc-section">
                                 <h2 class="section-title">{{ post.title }}</h2>
                                 <div class="section-block">
-                                    <div class="meta"><i class="fa fa-clock-o"></i> {{ post.date | date: '%B %d, %Y' }}</div>
+                                    <div class="meta"><i class="fas fa-clock-o"></i> {{ post.date | date: '%B %d, %Y' }}</div>
                                     {{ post.content | markdownify }}
                                 </div>
                             </section>

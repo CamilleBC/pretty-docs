@@ -122,7 +122,7 @@
     .body-purple &{
         color: darken($color-purple, 5%);
     }
-    .fa {
+    .fas {
         @include opacity(0.6);
     }
     .label {
@@ -626,7 +626,7 @@
         font-weight: 800;
         margin-top:0;
         margin-bottom: 45px;
-        .fa {
+        .fas {
             color: rgba(0, 0, 0, 0.5);
         }
     }

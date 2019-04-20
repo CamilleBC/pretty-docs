@@ -59,7 +59,7 @@ code {
     font-weight: 600;
     font-size: 14px;
     line-height: 1.5;
-    .fa {
+    .fas {
         margin-right: 5px;
     }
 }
@@ -188,7 +188,7 @@ select {
     &:hover {
         background: lighten($color-primary, 5%);
     }
-    .fa {
+    .fas {
         position: relative;
         top: 3px;
         font-size: 25px;
